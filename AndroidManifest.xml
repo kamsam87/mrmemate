@@ -9,7 +9,7 @@ android:versionCode="1"
    platformBuildVersionCode="1"
    platformBuildVersionName="1.0">
    <uses-sdk
-      android:minSdkVersion="21"
+      android:minSdkV'ersion="21"
       android:targetSdkVersion="26" />
    <!-- Have full network access -->
    <uses-permission android:name="android.permission.INTERNET" />
