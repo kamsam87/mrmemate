@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Open VIP can improve the speed of decompilation, resource code translate to name automatically and activate the smart editing and automatic completion function-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+android:versionCode="1"
+   android:versionName="1.0"
+   android:compileSdkVersion="29"
+   android:compileSdkVersionCodename="10"
+   package="com.tencent.memateESP"
+   platformBuildVersionCode="1"
+   platformBuildVersionName="1.0">
+   <uses-sdk
+      android:minSdkVersion="21"
+      android:targetSdkVersion="26" />
+   <!-- Have full network access -->
+   <uses-permission android:name="android.permission.INTERNET" />
+   <!-- View network connections -->
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <!-- Read phone status and identity -->
+   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+   <!-- Modify or delete the contents of your USB storage -->
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <!-- Read phone status and identity -->
+   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <!-- Connect and disconnect from Wi-Fi -->
+   <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <!-- Modify system settings -->
+   <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <!-- This app can appear on top of other apps -->
+   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <!-- View network connections -->
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <!-- Have full network access -->
+   <uses-permission android:name="android.permission.INTERNET" />
+   <!-- Modify or delete the contents of your USB storage -->
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <uses-permission android:name="android.permission.UNKNOWN" />
+   <application
+      android:label="MEMATE ESP™️"
+      android:icon="@kek1"
+      android:name="com.androlua.LuaApplication"
+      android:persistent="true"
+      android:largeHeap="true"
+      android:resizeableActivity="true"
+      android:supportsPictureInPicture="true">
+      <meta-data
+         android:name="android.max_aspect"
+         android:value="4" />
+      <activity
+         android:theme="@01030241"
+         android:label="MEMATE ESP™️"
+         android:name="com.androlua.Main"
+         android:launchMode="2"
+         android:configChanges="0x000004A0">
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <action
+               android:name="android.intent.action.EDIT" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="file" />
+            <data android:host="*" />
+            <data android:pathPattern="" />
+         </intent-filter>
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <action
+               android:name="android.intent.action.EDIT" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="content" />
+            <data android:host="*" />
+            <data android:pathPattern="" />
+         </intent-filter>
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <action
+               android:name="android.intent.action.EDIT" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="file" />
+            <data android:mimeType="application/*" />
+            <data android:mimeType="audio/*" />
+            <data android:mimeType="video/*" />
+            <data android:mimeType="text/*" />
+            <data android:mimeType="*/*" />
+            <data android:host="*" />
+            <data android:pathPattern="" />
+         </intent-filter>
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <action
+               android:name="android.intent.action.EDIT" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="content" />
+            <data android:host="*" />
+            <data android:mimeType="application/*" />
+            <data android:mimeType="audio/*" />
+            <data android:mimeType="video/*" />
+            <data android:mimeType="text/*" />
+            <data android:mimeType="*/*" />
+            <data android:pathPattern="" />
+         </intent-filter>
+      </activity>
+      <activity
+         android:theme="@01030010"
+         android:name="com.tencent.connect.common.AssistActivity"
+         android:screenOrientation="3"
+         android:configChanges="0x000000A0" />
+      <activity
+         android:name="com.tencent.tauth.AuthActivity"
+         android:launchMode="2"
+         android:noHistory="true">
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="tencent222222" />
+         </intent-filter>
+      </activity>
+      <activity
+         android:theme="@01030241"
+         android:label="MEMATE ESP™️"
+         android:name="com.androlua.LuaActivity"
+         android:configChanges="0x000004A0">
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="MEMATE ESP™️" />
+            <data android:host="com.tencent.memateESP" />
+         </intent-filter>
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <action
+               android:name="android.intent.action.EDIT" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="file" />
+            <data android:host="*" />
+            <data android:pathPattern="" />
+         </intent-filter>
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <action
+               android:name="android.intent.action.EDIT" />
+            <category
+               android:name="android.intent.category.DEFAULT" />
+            <category
+               android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="content" />
+            <data android:host="*" />
+            <data android:pathPattern="" />
+         </intent-filter>
+         <intent-filter>
+            <action
+               android:name="android.intent.action.VIEW" />
+            <category...
+         <!--Over the length of free decompile-->
